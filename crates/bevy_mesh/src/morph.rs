@@ -15,7 +15,7 @@ const MAX_TEXTURE_WIDTH: u32 = 2048;
 const MAX_COMPONENTS: u32 = MAX_TEXTURE_WIDTH * MAX_TEXTURE_WIDTH;
 
 /// Max target count available for [morph targets](MorphWeights).
-pub const MAX_MORPH_WEIGHTS: usize = 128;
+pub const MAX_MORPH_WEIGHTS: usize = 96;
 
 #[derive(Error, Display, Clone, Debug)]
 pub enum MorphBuildError {
